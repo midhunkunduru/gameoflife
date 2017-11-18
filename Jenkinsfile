@@ -11,9 +11,9 @@ node("master")
     stage("Checkout")
 {
   echo "${a}"
-  echo "${param1}"
+  echo "${Version}"
   
-  echo "${param2}"
+  echo "${Application}"
   
     
 }
